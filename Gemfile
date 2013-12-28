@@ -3,15 +3,20 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 
+#New gems for our demoapp
+gem 'bootstrap-sass', '2.3.2.0'
+gem 'will_paginate', '3.0.4'
+gem 'bootstrap-will_paginate', '0.0.9'
+ 
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails', '2.13.1'
 end
- 
+  
 group :test do
   gem 'selenium-webdriver', '2.35.1'
   gem 'capybara', '2.1.0'
-  #gem 'libnotify', '0.8.0'
+  gem 'libnotify', '0.8.0'
 end
  
 group :production do
